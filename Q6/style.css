@@ -1,0 +1,102 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+body {
+  display: flex;
+  justify-content: center;
+}
+
+form {
+  width: 750px;
+  height: 80vh;
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+.container {
+  background-color: rgb(179, 229, 249);
+  outline: none;
+}
+header {
+  font-size: large;
+  text-align: center;
+  padding: 20px;
+}
+
+hr {
+  border: 1px solid white;
+  margin: 30px 5px 10px 5px;
+}
+
+label {
+  padding-left: 20px;
+  font-size: large;
+}
+.option {
+  display: block;
+  margin-bottom: 15px;
+  font-size: larger;
+}
+select {
+  font-size: large;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="tel"],
+input[type="email"] {
+  padding: 15px;
+  margin: 5px 20px 25px 20px;
+  display: inline-block;
+  border: none;
+  background-color: #f1f1f1;
+  width: 90%;
+  font-size: large;
+}
+input[type="text"]:focus,
+input[type="password"]:focus,
+input[type="tel"]:focus,
+input[type="email"]:focus 
+{
+  background-color: rgb(255, 255, 255);
+  outline: none;
+}
+#currentAddress {
+  padding: 15px;
+  margin: 10px 20px 25px 20px;
+  display: inline-block;
+  border: none;
+  background-color: #f1f1f1;
+  width: 90%;
+  font-size: large;
+}
+#currentAddress:focus {
+  background-color: rgb(255, 255, 255);
+  outline: none;
+}
+input[type="radio"] {
+  margin-right: 5px;
+}
+.gender {
+  margin: 0px 20px 10px 20px;
+  display: inline-block;
+  border: none;
+  width: 90%;
+  font-size: large;
+}
+.registerbtn:hover {
+  opacity: 1;
+}
+
+.registerbtn {
+  background-color: #38a23a;
+  color: white;
+  padding: 15px;
+  margin: 20px;
+  margin-bottom: 40px;
+  border: none;
+  cursor: pointer;
+  width: 94%;
+  opacity: 0.9;
+  font-size: larger;
+}

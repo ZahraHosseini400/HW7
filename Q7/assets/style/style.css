@@ -1,0 +1,101 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+@font-face {
+  font-family: 'bTitr';
+  src: url('../Fonts/BTitrBold.TTF') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  }
+
+body {
+  display: flex;
+  justify-content: center;
+}
+.container{
+width: 70%;
+}
+header {
+  text-align: center;
+  font-size: larger;
+  padding-top: 24px;
+  margin-bottom: 30px;
+  font-family:"bTitr" ;
+}
+
+.order {
+  /* width:100%;
+   height:240; */
+
+  margin-bottom: 70px;
+  border: 3px solid black;
+}
+
+.menu{
+  overflow-x: scroll;
+  display: flex;
+  font-size: larger;
+  font-weight: bold;
+}
+/* Hide scrollbar for Chrome, Safari and Opera */
+.menu::-webkit-scrollbar {
+  display: none;
+}
+.boxInMenu{
+  margin-right: 40px;
+}
+select{
+  width: 250px;
+  height: 40px;
+  padding: 10px;
+  color: rgb(146, 146, 146);
+  display: block;
+  font-size: medium;
+}
+.btn{
+  background-color: rgb(19, 152, 224);
+  border-radius: 0px;
+  padding: 10px  80px  ;
+  width: 250px;
+  height: 40px;
+  display: block;
+  font-size: large;
+}
+
+th,
+td {
+  border: none;
+  padding: 10px;
+}
+table {
+  /* margin: 0 auto; */
+  /* overflow-x: auto; */
+  border-spacing: 0;
+  font-size: large;
+}
+hr {
+  margin-top: 40px;
+  margin-bottom: 40px;
+  border: 1px solid rgba(210, 175, 153, 0.535);
+}
+
+img {
+  width: 90px;
+  height: 90px;
+}
+
+button {
+  background-color: rgb(45, 74, 178);
+  border-radius: 45px;
+  padding-right: 16px;
+  padding: 10px;
+  width: 70px;
+  color: white;
+  font-weight: normal;
+  font-size: x-small;
+  text-align: center;
+
+}
+

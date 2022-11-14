@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Q6</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <form>
+      <div class="container">
+        <header>
+          <h1><b>Student Registration Form</b></h1>
+
+          <hr />
+        </header>
+        <div class="information">
+          <label for="Firstname"> Firstname</label>
+          <input
+            type="text"
+            id="Firstname"
+            placeholder="Firstname"
+            required
+          />
+          <label for="Middlename">Middlename:</label>
+          <input type="text" id="Middlename" placeholder="Middlename" />
+          <label for="Lastname">Lastname:</label>
+          <input
+            type="text"
+            id="Lastname"
+            placeholder="Lastname"
+            required
+          />
+        </div>
+        <div class="option">
+          <label for="course">Course:</label>
+          <select id="course">
+            <option value="Course">Course</option>
+            <option value="IT">IT</option>
+          </select>
+        </div>
+        <div>
+          <label id="gender">Gender:</label>
+          <br />
+          <div class="gender" required>
+            <input type="radio" name="m" value="Male"  /><span>Male</span>
+            <input type="radio" name="f" value="Female"  /><span>Female</span>
+            <input type="radio" name="Other" value="Other" /><span>Other</span>
+          </div>
+        </div>
+        <div class="address">
+          <label for="phone">Phone:</label>
+          <input type="tel" id="phone" placeholder="+91" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}"  required />
+          <input type="tel" placeholder="phone no." pattern="^\+{0,2}([\-\. ])?(\(?\d{0,3}\))?([\-\. ])?\(?\d{0,3}\)?([\-\. ])?\d{3}([\-\. ])?\d{4}"  required/>
+          <label for="currentAddress">current Address:</label>
+          <textarea id="currentAddress" pattern="required" rows="4" cols="50" placeholder="current Address">
+</textarea
+          >
+        </div>
+
+        <div class="email">
+          <label for="email"><b>Email</b></label>
+          <input type="email" id="email" placeholder="Enter Email"
+          id="email"  pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$" required">
+          <label for="password"><b>Password</b></label>
+          <input
+            type="password"
+            id="password"
+            placeholder="Enter password"
+            pattern=""
+            required
+          />
+          <label for="Retype password"><b>Re-type Password</b></label>
+          <input
+            type="password"
+            id="Retype password"
+            placeholder="Retype password"
+            pattern=""
+            required
+          />
+        </div>
+        <div>
+          <button type="submit" class="registerbtn"  required > Register</button>
+        </div>
+      </div>
+    </form>
+    <script src="script.js"></script>
+  </body>
+</html>
